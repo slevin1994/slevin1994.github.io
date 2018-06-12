@@ -20,7 +20,7 @@ all_categories: [
   ["git", "git用法","/git/index.html"],
   ["program", "软件开发","/program/index.html"],
   ["vps", "VPS","/vps/index.html"],
-  ["other", "杂记","/other/index.html"],
+  ["archives", "存档","/archives.html"],
   ["Tags", "Tags","/tags.html"], 
   ["about", "关于","/about.html"]
 ]
