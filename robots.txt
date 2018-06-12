@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://slevin1994.github.io/atom.xml
