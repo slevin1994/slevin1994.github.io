@@ -76,7 +76,7 @@
           <!-- Navi -->
           <div class="post_frame">
             <div class="post_navi">
-              <a href="/">首页1</a>&nbsp;>&nbsp;<a href="{{ page.url }}.html">{{ page.title }}</a>&nbsp;>&nbsp;
+              <a href="/">首页2</a>&nbsp;>&nbsp;<a href="{{ page.url }}.html">{{ page.title }}</a>&nbsp;>&nbsp;
               <span class="post_navi_span">列表</span>
             </div>
             <div style="padding:10px">
@@ -95,6 +95,16 @@
 						<p><h3><a href="{{ post.url }}">阅读全文 &raquo;</a></h3></p>
 					<hr>
 {% endfor %}
+{% for post in page.posts %}
+
+
+ <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li>
+
+
+{% endfor %}
+
+
+</ul>
 
 				{% for post in page.posts %}
 					<h2>
