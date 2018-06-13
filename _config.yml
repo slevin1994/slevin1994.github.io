@@ -13,15 +13,13 @@ url: https://slevin1994.github.io
 domain: slevin1994.github.io
 
 all_categories: [
-  ["android", "Android开发","/android/index.html"], 
-  ["react", "React Native", "/react/index.html"],
-  ["web", "Web建","/category/web.html"], 
-  ["linux", "Linux相关","/linux/index.html"],
-  ["git", "git用法","/git/index.html"],
-  ["program", "软件开发","/program/index.html"],
-  ["vps", "VPS","/vps/index.html"],
-  ["archives", "存档","/archives.html"],
-  ["Tags", "Tags","/tags.html"], 
+  ["java", "Java语言","/category/java.html"], 
+  ["javaweb", "JavaWeb", "/category/javaweb.html"],
+  ["jvm", "JVM","/category/jvm.html"], 
+  ["spring", "Spring框架","/category/spring.html"],
+  ["db", "数据库与MySQL","/category/db.html"],
+  ["archives", "存档","/archives.html"]
+  ["Tags", "标签","/tags.html"], 
   ["about", "关于","/about.html"]
 ]
 
