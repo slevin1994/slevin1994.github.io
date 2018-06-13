@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title.html
 excerpt_separator: "<!-- more -->"
-
+auto: auto
 
 github: slevin1994
 author: "slevin1994"
@@ -18,7 +18,7 @@ all_categories: [
   ["jvm", "JVM","/category/jvm.html"], 
   ["spring", "Spring框架","/category/spring.html"],
   ["db", "数据库与MySQL","/category/db.html"],
-  ["archives", "存档","/archives.html"]
+  ["archives", "存档","/archives.html"],
   ["Tags", "标签","/tags.html"], 
   ["about", "关于","/about.html"]
 ]
