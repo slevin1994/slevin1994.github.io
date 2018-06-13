@@ -82,23 +82,10 @@
               <span class="post_navi_span">列表</span>
             </div>
             <div style="padding:10px">
-
+<!-- Loop output paged posts -->
 {% for category in site.categories %}
     {% if category.first == page.category %}
         {% for post in category.last %}
-<div class="article">
-    <div class="well">
-        <h1 class="none"><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }} {{ post.date | date: "（%Y年%m月%d日）" }}</a></h1>
-        <div class="content">{{ post.excerpt | strip_html }}</div>
-    </div>
-</div>
-        {% endfor %}
-    {% endif %}
-{% endfor %}
-			
-<!-- Loop output paged posts -->
-
-{% for post in paginator.posts %}
 <h2>
   <a href="{{ post.url }}">
     {{ post.title }}
@@ -112,7 +99,12 @@
 {{ post.excerpt }}
 	<p><h3><a href="{{ post.url }}">阅读全文 &raquo;</a></h3></p>
 <hr>
+        {% endfor %}
+    {% endif %}
 {% endfor %}
+			
+
+
 
 <!-- Pager indicator -->
 <div style="margin:0px auto;text-align: center">
